@@ -1,0 +1,118 @@
+/*Emrah Ismayilzade*/
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.full{
+	width: 100%;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.news{
+	height: 650px;
+}
+.news .wrapper .newsHeading{
+	height: 101px;
+	background: #ffffff;
+	margin: 59px 0;
+	color: #838e99;
+	margin-bottom: 30px;
+}
+.news .wrapper .newsHeading h1{
+	font-size: 25px;
+}
+.news .wrapper .newsHeading p{
+	font-size: 17px;}
+
+
+.newsList .main{
+	width: 44%;
+}
+.newsList .main h3{
+	color: #838e99;
+}
+.newsList .main a{
+	border: 10px solid #bd9969;
+	background: #bd9969;
+	text-decoration: none;
+	color: #ffffff;
+	background-size: 113px 35px;
+}
+.newsList .other{
+	width: 44%;
+	margin: -7px 0;
+}
+.newsList .other h3{
+	font-size: 17px;
+}
+.newsList .other p, a{
+	font-size: 14px;
+}
+.newsList .other img{
+	padding: 7px 0px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.newsList .other h3, p, a{
+	margin: 10px 0;
+}
+.newsList .other h3, p{
+	color: #838e99;
+}
+.newsList .other a{
+	text-decoration: none;
+	color: #bd9969;
+}
+
+/*info section*/
+.info {
+	height: 490px;
+	background-image: url(../images/info.jpg);
+	background-repeat: no-repeat;
+}
+.info .wrapper .newsletter{
+	text-align: center;
+	height: 90px;
+	background: black;
+	border-radius: 0 0 20px 20px;
+}
+.info .wrapper .newsletter .first_quarter img{
+	margin: 25px 25px;
+	background: white;
+}
+.info .wrapper .newsletter .first_quarter h2{
+	color: white;
+	margin: 28px 0;
+}
+.info .wrapper .newsletter .three_quarter {
+	margin: 22px;
+	text-align: center;
+}
+.info .wrapper .newsletter .three_quarter input{
+	padding: 10px 0;
+	margin: 0 10px;
+}
+.info .wrapper .newsletter .three_quarter input:last-child{
+	width: 33%;
+}
+
+/*footer section*/
+
+.footer {
+	height: 60px;
+	background: black;
+	margin-top: 0;
+}
+.footer a{
+	text-decoration: none;
+	color: gray;
+}
